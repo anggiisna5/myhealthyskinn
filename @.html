@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<title>Healthy Skin</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: rgb(146, 30, 30);
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('wallpaperflare.com_wallpaper.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#skin types" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-female"></i> SKIN TYPES</a>
+    <a href="#tips" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TIPS</a>
+    <a href="#team" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-group"></i> TEAM</a>
+    <a href="#info" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-info-circle"></i> INFO</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#skin types" class="w3-bar-item w3-button" onclick="toggleFunction()">SKIN TYPES</a>
+    <a href="#tips" class="w3-bar-item w3-button" onclick="toggleFunction()">TIPS</a>
+    <a href="#team" class="w3-bar-item w3-button" onclick="toggleFunction()">TEAM</a>
+    <a href="#info" class="w3-bar-item w3-button" onclick="toggleFunction()">INFO</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">HEALTHY</span> SKIN</span>
+  </div>
+</div>
+
+<!-- Container (SKIN TYPES Section) -->
+<div class="w3-content w3-container w3-padding-64" id="skin types">
+  <h3 class="w3-center w3-pale-red">SKIN TYPES</h3>
+  <p>1. Jenis Kulit Wajah Normal</p>
+  </p> Dalam dunia perawatan kulit dan dermatologi, jenis kulit wajah normal mengacu pada kulit yang tidak mengalami segala jenis kondisi kulit yang berlebihan. Jenis kulit wajah normal memiliki keseimbangan antara jumlah kandungan air dan kandungan minyak.
+
+    Kulit wajah normal biasanya memiliki tingkat sebum dan hidrasi yang seimbang sehingga jenis kulit ini tidak terlalu kering dan tidak terlalu berminyak. Tingkat kelembapan kulit wajah normal cenderung pas. Orang dengan jenis kulit wajah normal biasanya jarang memiliki masalah kulit.
+    .</p>
+  <p>2. Jenis Kulit Wajah Berminyak</p>
+  <p>Jenis kulit wajah berminyak dipicu oleh produksi sebum dari kelenjar sebaceous (kelenjar minyak) yang berlebihan. Sebum merupakan zat minyak yang berasal dari lemak. Sedangkan kelenjar sebaceous adalah kelenjar yang terdapat di bawah permukaan kulit.
+
+    Meski pada dasarnya sebum berfungsi membantu melindungi dan melembapkan kulit, namun kondisi kelebihan sebum akan menyebabkan kulit wajah menjadi berminyak, pori-pori tersumbat dan menimbulkan jerawat.
+    
+    Jenis kulit wajah berminyak biasanya memiliki pori-pori besar, terlihat berkilau namun kusam, dan pada banyak kasus disertai komedo, jerawat, serta noda hitam. Beberapa penyebab kulit berminyak adalah pubertas, cuaca panas, stres, dan efek obat-obatan seperti antibiotik.</p>
+  <p>3. Jenis Kulit Wajah Kering</p>
+  <p>Jenis kulit wajah kering biasanya kurang memiliki kelembapan di lapisan kulit terluar. Hal ini mengakibatkan retakan pada permukaan kulit, sehingga terasa kering ketika disentuh.
+
+    Jenis kulit wajah kering bisa disebabkan oleh faktor genetik, penuaan, perubahan hormon, cuaca dingin, sinar matahari, radiasi ultraviolet, mandi air panas terlalu lama, atau bahan yang terkandung dalam produk sabun, kosmetik, pembersih, hingga obat-obatan.
+    
+    Pemilik kulit kering akan sering merasa kulitnya kencang seperti tertarik. Biasanya, perasaan kencang dan tertarik dirasakan setelah mencuci muka atau lupa memakai pelembap. Area yang sering terasa kering adalah dahi, tengah hidung, dan dagu.</p>
+  <p>4. Jenis Kulit Wajah Sensitif</p>
+  <p>Jenis kulit wajah sensitif memiliki kepekaan yang rendah terhadap beberapa hal. Jenis kulit ini mudah mengalami alergi, iritasi, dan ruam sebagai reaksi terhadap faktor tertentu. Faktor tersebut bisa seperti lingkungan, tanaman, makanan, dan produk kosmetik.
+
+    Jenis kulit wajah sensitif memiliki tingkat toleransi yang rendah dibanding dengan jenis kulit lainnya. Kulit sensitif mudah bereaksi pada produk kosmetik yang terlalu keras atau yang tidak cocok dengan kondisi wajah.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>SKIN TYPES</b></p><br>
+      <img src="hipwee-rs_600x500-150130120406-SkinTypeTips.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Struktur dan jenis kulit wajah yang dimiliki seseorang ditentukan oleh beberapa faktor, yakni:</p>
+
+       <p>1. Kandungan air pada kulit yang akan memengaruhi elastisitas kulit</p> 
+
+       <p>2. Kandungan minyak yang memengaruhi kelembutan dan nutrisi kulit</p> 
+
+        <p>3. Tingkat kepekaan kulit terhadap zat atau bahan tertentu</p>
+
+        <p>Berdasarkan ketiga faktor di atas, jenis kulit wajah dapat dibagi menjadi beberapa kategori seperti yang sudah ada di atas.</p>
+    </div>
+</div>
+
+<!-- Container (TIPS Section) -->
+<div class="w3-container w3-center w3-pale-red w3-content w3-container w3-padding-64" id="tips">
+  <h5>Bagaimana Cara merawat Kulit yang Benar Berdasarkan Jenis Kulitnya ?</h5>
+  <h3 class="w3-animate-zoom">TIPS MERAWAT KULIT WAJAH</h3>
+  </div>
+  <div class="w3-container w3-hover-pale-red">
+  <p>1. Kulit kering</p>
+  </div>
+<p>Jika kulit Anda termasuk ke dalam tipe kulit kering, ada beberapa cara merawat kulit kering yang dapat dicoba, antara lain:</p>
+
+<p>1. Menggunakan sabun dan produk perawatan kulit berbahan kimia ringan atau tidak bersifat iritatif, misalnya yang tidak mengandung pewangi atau antibakteri</p>
+<p>2. Membatasi waktu mandi maksimal 15 menit dan sebaiknya gunakan air bersuhu hangat saat mandi</p>
+<p>3. Menghindari gerakan menggosok kulit terlalu kencang saat mandi</p>
+<p>4. Mengoleskan pelembap setelah mandi dan setiap kali kulit terasa kering</p>
+<p>5. Menggunakan produk berbahan dasar petroleum jelly atau minyak, karena dapat memerangkap cairan agar tidak cepat menguap dari kulit</p>
+
+  <p>2. Kulit berminyak</p>
+<p>Kulit berminyak dapat dirawat dengan beberapa cara berikut ini:</p>
+<p>1. Menggunakan produk perawatan berlabel bebas minyak atau noncomedogenic yang tidak menyumbat pori-pori</p>
+<p>2. Mencuci wajah 2 kali sehari, khususnya saat kulit wajah berkeringat</p>
+<p>3. Menghindari memencet jerawat karena dapat meninggalkan bekas luka yang sulit hilang</p>
+<p>4. Menggunakan produk perawatan kulit berbahan dasar air agar tidak membuat kulit semakin berminyak dan mencegah munculnya jerawat</p>
+
+  <p>3. Kulit normal</p>
+<p>Kulit normal umumnya tampak merona, tidak kusam, berminyak, atau kering, serta tidak memiliki banyak kerutan. Tipe kulit normal juga lebih mudah dirawat daripada jenis kulit lainnya.</p>
+<p>Jika kulit Anda termasuk tipe kulit normal, Anda hanya perlu rutin menggunakan pelembap berbahan dasar air yang bersifat ringan dan tidak lengket untuk menjaga kelembapan alami kulit.</p>
+
+ <p>4. Kulit sensitif</p>
+<p>Untuk merawat atau mengatasi kulit sensitif, Anda bisa mengikuti beberapa langkah perawatan kulit berikut ini:</p>
+
+<p>1. Mengenali dan menghindari faktor pemicu iritasi kulit, misalnya suhu panas atau dingin, paparan debu, atau bahan kimia yang bersifat iritatif</p>
+<p>2. Menggunakan pembersih dengan bahan alami yang baik untuk kulit sensitif, seperti lidah buaya, chamomile, atau teh hijau</p>
+<p>3. Menghindari produk yang mengandung alkohol, sabun, pewangi, dan zat asam</p>
+<p>4. Memilih produk khusus kulit sensitif yang berlabel hypoallergenic</p>
+</div>
+
+<!-- Container (TEAM Section) -->
+  <h3 class="w3-center  w3-pale-red" id="team">OUR TEAM</h3>
+  <p class="w3-center"><em>Website MY HEALTHY SKIN ini terdiri dari beberapa orang yang memiliki wawasan tersendiri tentang dunia kecantikan khusunya dalam kesehatan kulit.<br> </em></p><br>
+
+  <html lang="en">
+    <head>
+    <title>Bootstrap Theme Simply Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    .bg-1 {
+      background-color: #c2707b;
+      color: #f7f2f3;
+    }
+    .bg-2 {
+      background-color: #f5ecf3;
+      color: #ffffff;
+    }
+    .bg-3 {
+      background-color: #f1c5dd;
+      color: #e2d1d1;
+    }
+    .bg-4 {
+      background-color: #e59dc5;
+      color: #fff;
+    }
+    .container-fluid {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+    }
+    .navbar-nav  li a:hover {
+      color: #b478a0 !important;
+    }
+    .carousel-inner img {
+      width: 15%;
+      margin: auto;
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="container-fluid bg-1 text-center">
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <h3>VIDHA KHARISMA </h3>
+            <img src="WhatsApp Image 2021-01-08 at 18.10.24.jpeg" class="img-responsive img-circle" style="display:inline" alt="aisna">
+            <h5>@vidhakhaa</h5>
+            <h6>NIM 1900016068</h6>
+          </div>
+    
+          <div class="item">
+            <h3>ANGGI ISNA </h3>
+            <img src="WhatsApp Image 2021-01-08 at 18.04.26.jpeg" class="img-responsive img-circle" style="display:inline" alt="aisna">
+            <h5>@aisnaa_</h5>
+            <h6>NIM 1900016062</h6>
+          </div>
+    
+          <div class="item">
+            <h3>OCTAVIYA D.L</h3>
+            <img src="WhatsApp Image 2021-01-08 at 18.07.00.jpeg" class="img-responsive img-circle" style="display:inline" alt="aisna">
+            <h5>@octaviyadl</h5>
+            <h6>NIM 1900016166</h6>
+          </div>
+          
+          <div class="item">
+            <h3>RIZKI GUSNANDO</h3>
+            <img src="WhatsApp Image 2021-01-08 at 18.12.41.jpeg" class="img-responsive img-circle" style="display:inline" alt="aisna">
+            <h5>@rzkgnando</h5>
+            <h6>NIM 1900016091</h6>
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (INFO Section) -->
+<div class="w3-content w3-container w3-padding-64" id="info">
+  <h3 class="w3-center">INFO</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="Foliage Outline Hand Written Feminine logo.png" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Yogyakarta, DIY, INDONESIA<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: myhealthyskinmail@mail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by My Healthy Skin</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
